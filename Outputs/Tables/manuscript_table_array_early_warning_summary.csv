@@ -1,0 +1,6 @@
+scenario,eta,attack,drift,shots,mean_time_to_conventional_insecure,mean_time_to_uvif_unstable,mean_time_to_warning,warning_lead_vs_conventional
+elevated_pressure,0.105,0.24,0.02,10000,,,,
+insecure_reference,0.145,0.32,0.03,10000,,,,
+near_boundary,0.075,0.16,0.015,10000,,,,
+resource_limited_transition,0.08,0.18,0.015,2000,,,,
+secure_reference,0.035,0.08,0.008,10000,,,,

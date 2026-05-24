@@ -1,0 +1,5 @@
+decision_regime,interpretation,recommended_action,manuscript_use
+secure_operate,Stable operational security margin with acceptable UVIF free-energy balance.,"Continue operation; monitor QBER, finite-key margin, and UVIF score.",Represents the nominal secure state under the proposed operational-intelligence layer.
+watch_adapt,"Security remains acceptable but the boundary is approaching under disturbance, drift, or finite resources.","Increase monitoring frequency, refresh calibration, or adjust resource allocation.",Shows how UVIF creates an intermediate adaptive decision state absent from hard QBER thresholding.
+warning_reduce_risk,"Transition-like region with elevated free energy, weakened margin, or resource pressure.","Reduce key-generation exposure, increase shot count if possible, recalibrate, or trigger rekeying policy.",Provides early-warning and risk-mitigation functionality.
+insecure_suspend_or_rekey,Operational security state is unstable or insecure under the UVIF-guided assessment.,"Suspend key use, re-estimate channel conditions, rekey, or reject the block.",Represents a conservative operational response to high disturbance or adversarial pressure.
